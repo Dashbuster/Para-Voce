@@ -1,0 +1,62 @@
+input, label {
+    display: block;
+    width: 100%;
+
+}
+input:focus, label:focus {
+    outline: none;
+
+}
+
+form{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+
+}
+
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+input:focus{
+    border-color: #E60064;
+}
+input[type="submit"] {
+    background-color: #E60064;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#main{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+}
+body{
+    background-image: url(pngtree-pink-heart-valentine-background-picture-image_1307863.jpg);
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
